@@ -1,0 +1,175 @@
+[{
+  "location": "VA",
+  "id": 1,
+  "clusters": [
+    {
+      "rooms": [
+        {
+          "withTV": true,
+          "name": "mit",
+          "description": "mens et manus",
+          "id": 111,
+          "withWhiteBoard": true,
+          "capacity": 6
+        },
+        {
+          "withTV": true,
+          "name": "harvard",
+          "description": "veritas",
+          "id": 112,
+          "withWhiteBoard": false,
+          "capacity": 6
+        },
+        {
+          "withTV": true,
+          "name": "yale",
+          "description": "lux et veritas",
+          "id": 113,
+          "withWhiteBoard": false,
+          "capacity": 6
+        },
+        {
+          "withTV": true,
+          "name": "princeton",
+          "description": "dei sub numine viget",
+          "id": 114,
+          "withWhiteBoard": false,
+          "capacity": 4
+        },
+        {
+          "withTV": false,
+          "name": "stanford",
+          "description": "die luft der freiheit weht",
+          "id": 115,
+          "withWhiteBoard": true,
+          "capacity": 6
+        },
+        {
+          "withTV": true,
+          "name": "duke",
+          "description": "eruditio et religio",
+          "id": 116,
+          "withWhiteBoard": false,
+          "capacity": 4
+        },
+        {
+          "withTV": true,
+          "name": "berkeley",
+          "description": "fiat lux",
+          "id": 117,
+          "withWhiteBoard": false,
+          "capacity": 4
+        }
+      ],
+      "name": "light-side",
+      "id": 3
+    },
+    {
+      "rooms": [
+        {
+          "withTV": true,
+          "name": "kilimanjaro",
+          "description": "it isn't the mountains ahead to climb that wear you out, it's the pebble in your shoe",
+          "id": 121,
+          "withWhiteBoard": true,
+          "capacity": 6
+        },
+        {
+          "withTV": true,
+          "name": "half dome",
+          "description": "faith moves mountains",
+          "id": 122,
+          "withWhiteBoard": true,
+          "capacity": 6
+        },
+        {
+          "withTV": true,
+          "name": "denali",
+          "description": "you can't move mountains by whispering at them",
+          "id": 123,
+          "withWhiteBoard": true,
+          "capacity": 4
+        },
+        {
+          "withTV": true,
+          "name": "meru",
+          "description": "every mountain top is within reach if you just keep climbing",
+          "id": 124,
+          "withWhiteBoard": true,
+          "capacity": 4
+        }
+      ],
+      "name": "dark-side",
+      "id": 4
+    }
+  ]
+},
+{
+"location": "IL",
+"id": 2,
+"clusters": [
+{
+"rooms": [
+{
+"withTV": true,
+"name": "google",
+"description": "don't be evil",
+"id": 211,
+"withWhiteBoard": true,
+"capacity": 6
+},
+{
+"withTV": true,
+"name": "apple",
+"description": "think different",
+"id": 212,
+"withWhiteBoard": true,
+"capacity": 6
+},
+{
+"withTV": true,
+"name": "microsoft",
+"description": "be what's next",
+"id": 213,
+"withWhiteBoard": true,
+"capacity": 6
+},
+{
+"withTV": true,
+"name": "bay_area",
+"description": "make future",
+"id": 214,
+"withWhiteBoard": true,
+"capacity": 6
+},
+{
+"withTV": true,
+"name": "amazon",
+"description": "work hard. have fun. make history",
+"id": 215,
+"withWhiteBoard": true,
+"capacity": 6
+},
+{
+"withTV": true,
+"name": "tesla",
+"description": "just do it",
+"id": 216,
+"withWhiteBoard": true,
+"capacity": 6
+},
+{
+"withTV": true,
+"name": "facebook",
+"description": "move fast and break things",
+"id": 217,
+"withWhiteBoard": true,
+"capacity": 6
+}
+],
+"name": "il",
+"id": 5
+}
+]
+}
+]
