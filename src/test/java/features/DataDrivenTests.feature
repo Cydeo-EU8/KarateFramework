@@ -1,4 +1,5 @@
 Feature: Data driven tests
+
   Scenario Outline: get token for user <email>
     Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/'
     And path 'sign'
@@ -62,7 +63,7 @@ Feature: Data driven tests
 
 
 
-  @wip @ignore
+  @ignore
   Scenario Outline: get user information verification(Database vs API) <email>
     * def DBUtils = Java.type('utilities.DBUtils')
     * def query = "select id,firstname,lastname,role from users where email = '<email>'"

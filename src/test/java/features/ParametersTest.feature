@@ -2,7 +2,7 @@ Feature:  Parameters examples
 
   Background:
     * def baseUrl = 'https://api.exchangeratesapi.io'
-    * def spartanUrl = 'http://52.55.102.92:8000'
+    * def spartanUrl = 'http://34.228.41.120:8000'
     * def hrUrl = 'http://52.55.102.92:1000/ords/hr'
 
   Scenario: path parameters
