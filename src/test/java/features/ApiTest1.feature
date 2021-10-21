@@ -18,7 +18,7 @@ Feature: pet store api tests
 
 
 
-  @wip
+
   Scenario: json body verification
     Given url 'https://petstore.swagger.io/v2/store/inventory'
     When method get
