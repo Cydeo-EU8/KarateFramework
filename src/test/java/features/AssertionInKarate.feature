@@ -18,7 +18,6 @@ Feature: using match keyword
     * def emp_name = employee.first_name
     * match emp_name == 'TJ'
     * match employee.salary == 24001
-
   Scenario: fuzzy matching
     * def employee =
   """
@@ -32,6 +31,7 @@ Feature: using match keyword
     * match employee.salary == '#number'
     * match employee.active == '#boolean'
     * match employee.last_name == '#notpresent'
+
 
 
   Scenario: contains matching
