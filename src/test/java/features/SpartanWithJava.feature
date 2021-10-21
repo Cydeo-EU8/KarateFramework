@@ -1,8 +1,7 @@
 Feature: Karate Java Integration
 
   Background:
-    * def spartanUrl = 'http://18.206.192.182:8000'
-
+    * def spartanUrl = 'http://52.207.61.129:8000/'
   Scenario: Get a spartan with request header
     Given url spartanUrl
     And path "api/spartans"
@@ -17,7 +16,7 @@ Feature: Karate Java Integration
     And header Accept = 'application/json'
     And header Content-Type = 'application/json'
     And request
-    """
+  """
     {
         "gender": "Female",
          "name": "Lorenza",
@@ -39,6 +38,7 @@ Feature: Karate Java Integration
     * print newSpartan
 
 
+  @wip
   Scenario: Create a spartan with Random Data (JAVA)
     * def SDG = Java.type('utilities.SpartanDataGenerator')
     * def newSpartan = SDG.createSpartan()
