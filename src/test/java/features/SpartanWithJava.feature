@@ -38,7 +38,6 @@ Feature: Karate Java Integration
     * print newSpartan
 
 
-  @wip
   Scenario: Create a spartan with Random Data (JAVA)
     * def SDG = Java.type('utilities.SpartanDataGenerator')
     * def newSpartan = SDG.createSpartan()
@@ -53,6 +52,7 @@ Feature: Karate Java Integration
     And match response.success == 'A Spartan is Born!'
         #verify names
     And match response.data.name == newSpartan.name
+
 
 
   Scenario: Create a spartan with Random Data (JAVA) and delete
