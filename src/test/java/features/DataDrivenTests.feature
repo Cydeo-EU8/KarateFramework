@@ -60,7 +60,7 @@ Feature: Data driven tests
 
 
 
-  @wip
+
 
   Scenario Outline: get user information verification(Database vs API) <email>
     * def DBUtils = Java.type('utilities.DBUtils')
