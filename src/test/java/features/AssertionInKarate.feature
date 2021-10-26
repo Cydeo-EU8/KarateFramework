@@ -53,7 +53,13 @@ Feature: using match keyword
     * def length = employees.length
     * print length
     * match  length == 2
-    * match employees contains any {"first_name":"TJ","salary":24001,"active":true }
+    * match employees contains {"first_name":"TJ","salary":24001,"active":true }
+    # To assert that any of the given array elements are present.
+    * def items = { item: [1, 2, 3] }
+    * match items.item contains any [9, 2, 8]
+    # to iterate over all elements in a JSON array using the each modifier
+    * def data = { foo: [{ bar: 1, baz: 'a' }, { bar: 2, baz: 'b' }, { bar: 3, baz: 'c' }]}
+    * match each data.foo == { bar: '#number', baz: '#string' }
 
 
 
