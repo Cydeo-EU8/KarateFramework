@@ -1,4 +1,4 @@
-
+@ignore
 Feature: Karate browser automation
 
   Background: test

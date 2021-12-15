@@ -1,3 +1,4 @@
+@smoke
 Feature: Bookit Api tests
 
     Background:

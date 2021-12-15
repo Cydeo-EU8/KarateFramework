@@ -16,7 +16,7 @@ public class ParallelRunner {
     @Test
     public void testParallel() {
         //Results results = Runner.parallel(getClass(), 5);
-        Results results = Runner.path("classpath:features").tags("~@ignore").parallel(5);
+        Results results = Runner.path("classpath:features").tags("@smoke").parallel(5);
         generateReport(results.getReportDir());
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
     }
